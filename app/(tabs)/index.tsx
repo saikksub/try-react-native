@@ -7,8 +7,8 @@ export default function HomeScreen() {
   const [text, setText] = useState('');
 
   return (
-    <View style={{padding: 10}}>
-      <Button size="md" variant="solid" action="primary">
+    <View className='absolute right-0 bottom-0 m-4'>
+      <Button size="md" variant="solid" className='w-fit' action="primary">
         <ButtonText>Hello World!</ButtonText>
       </Button>
     </View>
